@@ -1,0 +1,11 @@
+2012-11-16 00:35:25
+
+commit e12d74f3a2df22af0a2b66245df654d7c1fe975a
+Author: Ivan De Marino <ivan.de.marino@gmail.com>
+Date:   Mon Nov 12 00:14:48 2012 +0000
+
+    Generate `lastupdate` while `export_ghostdriver.sh`
+    
+    At the end of execution, `export_ghostdriver.sh` generates a `lastupdate` file that contains:
+    - timestamp
+    - the current HEAD of the GhostDriver branch that we are exporting from
