@@ -1,7 +1,7 @@
-2012-11-18 00:51:11
+2012-11-18 23:49:56
 
-commit 7c23d7684929bf26deb5be901ba1e5bc51f3e48a
+commit b876cba4fb29da62f2cce52797c6e61640d492de
 Author: Ivan De Marino <ivan.de.marino@gmail.com>
-Date:   Sun Nov 18 00:42:32 2012 +0000
+Date:   Sun Nov 18 23:49:39 2012 +0000
 
-    Avoid listing directories into `ghostdriver.qrc`
+    A bit of `try…catch` to make error-shutdown smooth
