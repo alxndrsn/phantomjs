@@ -4,7 +4,6 @@
         <file>hub_register.js</file>
         <file>inputs.js</file>
         <file>main.js</file>
-        <file>request_handlers</file>
         <file>request_handlers/request_handler.js</file>
         <file>request_handlers/router_request_handler.js</file>
         <file>request_handlers/session_manager_request_handler.js</file>
@@ -13,10 +12,8 @@
         <file>request_handlers/status_request_handler.js</file>
         <file>request_handlers/webelement_request_handler.js</file>
         <file>session.js</file>
-        <file>third_party</file>
         <file>third_party/parseuri.js</file>
         <file>third_party/uuid.js</file>
-        <file>third_party/webdriver-atoms</file>
         <file>third_party/webdriver-atoms/active_element.js</file>
         <file>third_party/webdriver-atoms/clear.js</file>
         <file>third_party/webdriver-atoms/clear_local_storage.js</file>
