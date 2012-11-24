@@ -87,5 +87,9 @@ EOF
 fi
 
 cd src/qt && ./preconfig.sh --jobs $COMPILE_JOBS --qt-config "$QT_CFG" && cd ../..
+if [ $? -ne 0 ]; then
+	echo "Build failed.  Have you installed all required tools and dependencies?  Please check http://phantomjs.org/build.html."
+	exit 1
+fi
 src/qt/bin/qmake $QMAKE_ARGS
 make -j$COMPILE_JOBS

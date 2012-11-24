@@ -2,6 +2,7 @@
 *.pro.user*
 *.xcodeproj
 Makefile*
+src/qt/.qmake.vars
 bin/phantomjs
 *~
 *.moc

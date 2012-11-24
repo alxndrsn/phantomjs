@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 COMPILE_JOBS=4
 

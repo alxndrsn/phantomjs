@@ -1,4 +1,5 @@
 #!/bin/sh
+set -e
 #############################################################################
 ##
 ## Copyright (C) 2012 Nokia Corporation and/or its subsidiary(-ies).
