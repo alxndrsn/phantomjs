@@ -89,6 +89,8 @@ fi
 cd src/qt && ./preconfig.sh --jobs $COMPILE_JOBS --qt-config "$QT_CFG" && cd ../..
 if [ $? -ne 0 ]; then
 	echo "Build failed.  Have you installed all required tools and dependencies?  Please check http://phantomjs.org/build.html."
+	echo "You may need to clean your git repo of generated files after installing required libs - do this by running:"
+	echo "  git clean -xdf"
 	exit 1
 fi
 src/qt/bin/qmake $QMAKE_ARGS
